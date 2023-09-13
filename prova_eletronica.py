@@ -72,5 +72,6 @@ for num, questao in enumerate(prova):
 for i in range(0, 5):
     if marcacoes[i] == gabarito[i]:
         print("Questão", i + 1, "correta!")
-   
+    else:
+        print("Questão", i + 1, "incorreta!", "Questão correta:", gabarito[i])
 print(pontuacao)
